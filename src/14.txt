@@ -1,0 +1,108 @@
+(base) ┌──(klx㉿kali)-[~/learn-bun-test] (main)
+└─$ bun test src/14.test.ts
+bun test v1.2.15 (df017990)
+
+src/14.test.ts:
+Database1
+Database1 * lang
+Database1 * beforeAll
+Database1 * lang * beforeAll
+Database1 * group
+Database1 * group * beforeAll
+Database1 * card
+Database1 * card * beforeAll
+Database2
+Database2 * lang
+Database2 * beforeAll
+Database2 * lang * beforeAll
+Database2 * group
+Database2 * group * beforeAll
+Database2 * card
+Database2 * card * beforeAll
+Database1 * beforeEach
+Database1 * lang * beforeEach
+Database1 * lang * createLang
+✓ Database1 > lang > createLang
+Database1 * lang * afterEach
+Database1 * afterEach
+Database1 * beforeEach
+Database1 * lang * beforeEach
+Database1 * lang * readLangs
+✓ Database1 > lang > readLangs
+Database1 * lang * afterEach
+Database1 * afterEach
+Database1 * lang * afterAll
+Database1 * beforeEach
+Database1 * group * beforeEach
+Database1 * group * createGroup
+✓ Database1 > group > createGroup
+Database1 * group * afterEach
+Database1 * afterEach
+Database1 * beforeEach
+Database1 * group * beforeEach
+Database1 * group * readGroups
+✓ Database1 > group > readGroups
+Database1 * group * afterEach
+Database1 * afterEach
+Database1 * group * afterAll
+Database1 * beforeEach
+Database1 * card * beforeEach
+Database1 * card * createCard
+✓ Database1 > card > createCard
+Database1 * card * afterEach
+Database1 * afterEach
+Database1 * beforeEach
+Database1 * card * beforeEach
+Database1 * card * readCards
+✓ Database1 > card > readCards
+Database1 * card * afterEach
+Database1 * afterEach
+Database1 * card * afterAll
+Database1 * afterAll
+Database2 * beforeEach
+Database2 * lang * beforeEach
+Database2 * lang * createLang
+✓ Database2 > lang > createLang
+Database2 * lang * afterEach
+Database2 * afterEach
+Database2 * beforeEach
+Database2 * lang * beforeEach
+Database2 * lang * readLangs
+✓ Database2 > lang > readLangs
+Database2 * lang * afterEach
+Database2 * afterEach
+Database2 * lang * afterAll
+Database2 * beforeEach
+Database2 * group * beforeEach
+Database2 * group * createGroup
+✓ Database2 > group > createGroup
+Database2 * group * afterEach
+Database2 * afterEach
+Database2 * beforeEach
+Database2 * group * beforeEach
+Database2 * group * readGroups
+✓ Database2 > group > readGroups
+Database2 * group * afterEach
+Database2 * afterEach
+Database2 * group * afterAll
+Database2 * beforeEach
+Database2 * card * beforeEach
+Database2 * card * createCard
+✓ Database2 > card > createCard
+Database2 * card * afterEach
+Database2 * afterEach
+Database2 * beforeEach
+Database2 * card * beforeEach
+Database2 * card * readCards
+✓ Database2 > card > readCards
+Database2 * card * afterEach
+Database2 * afterEach
+Database2 * card * afterAll
+Database2 * afterAll
+
+ 12 pass
+ 0 fail
+Ran 12 tests across 1 files. [9.00ms]
+
+(base) ┌──(klx㉿kali)-[~/learn-bun-test] (main)
+└─$ 
