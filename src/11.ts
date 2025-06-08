@@ -25,7 +25,7 @@ queueMicrotask(async () => {
       case 'describe':
         break;
       case 'it':
-        console.log(`✓ ${title} [${executionTime}ms]`);
+        console.log(`✓ ${title} [${executionTime.toFixed(2)}ms]`);
         break;
     }
   }
